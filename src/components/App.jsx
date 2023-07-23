@@ -8,6 +8,7 @@ import {useAuth} from '../hooks/useAuth';
 import { refreshUser } from "Redux/Authorization/ApiOperations";
 import css from '../Modules/phoneBook.module.css';
 import {Vortex} from "react-loader-spinner";
+import NotFound from "./Navigation/NotFound";
 
 
 const HomePage = lazy(() => import('../pages/Home/Home'));
@@ -52,6 +53,7 @@ export const App = () => {
         }
       />
     </Route>
+    <Route path="*" element={<NotFound />} />
   </Routes>
   )
 }

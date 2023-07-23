@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteContact, fetchContacts } from 'Redux/operations';
+import { deleteContact} from 'Redux/operations';
 import PropTypes from 'prop-types';
 import css from "../Modules/phoneBook.module.css";
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 import { selectContacts, selectStatusFilter } from '../Redux/selectors';
 
 const ContactList = () => {
@@ -13,9 +13,9 @@ const ContactList = () => {
   const normalizedFilter = filtered.toLowerCase();
   const filteredContacts = contacts.filter(({ name }) => name.toLowerCase().includes(normalizedFilter));
 
-  useEffect ( () => {
-    dispatch(fetchContacts());
-  }, [dispatch])
+  // useEffect ( () => {
+  //   dispatch(fetchContacts());
+  // }, [dispatch])
 
   return (
     <ul className={css.contactsList}>
