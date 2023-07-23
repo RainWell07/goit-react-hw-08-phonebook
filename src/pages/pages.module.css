@@ -1,0 +1,70 @@
+@import 'normalize.css';
+
+
+.header {
+   background: rgb(90, 90, 237);
+    padding: 10px;
+    padding-top:35px;
+    margin-bottom: 70px;
+}
+.homeContainer {
+    text-align: center;
+    font-size: 57px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 300px;
+};
+
+.contactsContainer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+};
+
+.basicFont {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bookLogo {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(90, 90, 237);
+  font-weight: bold;
+}
+.basicFontHome {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 0;
+margin-bottom: 0;
+font-size: 30px;
+}
+.homeOverlay {
+background-color:#f2f2f2;
+width: 500px;
+padding: 20px;
+text-align: center;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+border: 1px solid green;
+}
